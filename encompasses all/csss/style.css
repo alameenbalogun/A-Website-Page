@@ -1,0 +1,48 @@
+div{
+    background-color: red;
+}
+div > ul{
+    padding: 0px;
+    margin: 0px;
+}
+div > ul > li{
+    /* list-style-type: none; */
+    display: inline-block;
+    /* padding: 15px; */
+}
+div > ul > li > a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 15px;
+}
+div > ul > li > a:hover{
+    background-color: blue;
+}
+
+.service{
+    list-style-type: none;
+    display: block;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;  
+}
+.service > li{
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+}
+.service > li > a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 15px;
+}
+.service > li:hover{
+    background-color: red;
+}
+div > ul >li:hover .service{
+    display: block;
+}

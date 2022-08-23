@@ -1,0 +1,155 @@
+body{
+    margin: 0 auto;
+    background-color: bisque;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.form{
+    float: right;
+    padding: 15px;
+}
+.logo{
+    padding: 15px;
+}
+nav{
+    background-color: blue;
+}
+nav > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav > ul > li{
+    display: inline-block;
+}
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+}
+nav > ul > li > a:hover{
+    background-color: black;
+}
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    background-color: black;
+}
+.drop > li > a:hover{
+    background-color: blue;
+}
+nav > ul > li:hover .drop{
+    display: block;
+}
+.cycle-slideshow{
+    width: 1000px;
+    height: 1004px;
+    overflow: hidden;
+}
+.cycle-slideshow  img{
+    width: 100%;
+    height: auto;
+}
+.content-holder{
+    background-color: teal;
+}
+.content{
+    width: 700px;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    float: left;
+}
+.content h3{
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content p{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.clearfix{
+    clear: both;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li > a{
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-style: oblique;
+    color: white;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    float: left;
+    width: 230px;
+    height: auto;
+}
+.footer-box ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.footer-box ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+.footer-box address a{
+    color: yellow;
+}
+address > p{
+    font-size: small;
+}
+.copy{
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.copy > p{
+    margin: 0px;
+}
+.content img{
+    max-width: 700px;
+}
+.product{
+    width: 211.33px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}

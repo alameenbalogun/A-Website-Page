@@ -1,0 +1,14 @@
+.animation{
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    animation-name: runMe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes runMe{
+    0%{
+        motion-path: view-box;
+    }
+}
